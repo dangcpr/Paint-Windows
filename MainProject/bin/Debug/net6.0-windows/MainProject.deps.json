@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MainProject/1.0.0": {
+        "dependencies": {
+          "Drawing": "1.0.0"
+        },
+        "runtime": {
+          "MainProject.dll": {}
+        }
+      },
+      "Drawing/1.0.0": {
+        "runtime": {
+          "Drawing.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MainProject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Drawing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

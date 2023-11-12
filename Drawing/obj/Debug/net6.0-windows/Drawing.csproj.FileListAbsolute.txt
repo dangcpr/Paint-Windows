@@ -1,0 +1,11 @@
+D:\Windows\Paint-Windows\Drawing\bin\Debug\net6.0-windows\Drawing.deps.json
+D:\Windows\Paint-Windows\Drawing\bin\Debug\net6.0-windows\Drawing.dll
+D:\Windows\Paint-Windows\Drawing\bin\Debug\net6.0-windows\Drawing.pdb
+D:\Windows\Paint-Windows\Drawing\obj\Debug\net6.0-windows\Drawing.GeneratedMSBuildEditorConfig.editorconfig
+D:\Windows\Paint-Windows\Drawing\obj\Debug\net6.0-windows\Drawing.AssemblyInfoInputs.cache
+D:\Windows\Paint-Windows\Drawing\obj\Debug\net6.0-windows\Drawing.AssemblyInfo.cs
+D:\Windows\Paint-Windows\Drawing\obj\Debug\net6.0-windows\Drawing.csproj.CoreCompileInputs.cache
+D:\Windows\Paint-Windows\Drawing\obj\Debug\net6.0-windows\Drawing.dll
+D:\Windows\Paint-Windows\Drawing\obj\Debug\net6.0-windows\refint\Drawing.dll
+D:\Windows\Paint-Windows\Drawing\obj\Debug\net6.0-windows\Drawing.pdb
+D:\Windows\Paint-Windows\Drawing\obj\Debug\net6.0-windows\ref\Drawing.dll

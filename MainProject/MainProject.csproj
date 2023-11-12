@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\Ribbon\ellipses.png" />
+    <None Remove="assets\Ribbon\export.png" />
+    <None Remove="assets\Ribbon\import.png" />
+    <None Remove="assets\Ribbon\lines.png" />
+    <None Remove="assets\Ribbon\load.png" />
+    <None Remove="assets\Ribbon\redo.png" />
+    <None Remove="assets\Ribbon\rentangles.png" />
+    <None Remove="assets\Ribbon\reset.png" />
+    <None Remove="assets\Ribbon\save.png" />
+    <None Remove="assets\Ribbon\Shape.png" />
+    <None Remove="assets\Ribbon\undo.png" />
+    <None Remove="assets\Ribbon\zoom.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Drawing\Drawing.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\Ribbon\ellipses.png" />
+    <Resource Include="assets\Ribbon\export.png" />
+    <Resource Include="assets\Ribbon\import.png" />
+    <Resource Include="assets\Ribbon\lines.png" />
+    <Resource Include="assets\Ribbon\load.png" />
+    <Resource Include="assets\Ribbon\redo.png" />
+    <Resource Include="assets\Ribbon\rentangles.png" />
+    <Resource Include="assets\Ribbon\reset.png" />
+    <Resource Include="assets\Ribbon\save.png" />
+    <Resource Include="assets\Ribbon\shape.png" />
+    <Resource Include="assets\Ribbon\undo.png" />
+    <Resource Include="assets\Ribbon\zoom.png" />
+  </ItemGroup>
+
+</Project>

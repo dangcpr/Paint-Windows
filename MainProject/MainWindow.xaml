@@ -1,0 +1,40 @@
+﻿<Window x:Class="MainProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1280" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Ribbon Panel.ZIndex="2" Grid.Row="0">
+            <RibbonTab Header="Home">
+                <RibbonGroup Header="System" >
+                    <RibbonButton Label="Save" LargeImageSource="assets/Ribbon/save.png"/>
+                    <RibbonButton Label="Load Saved File" LargeImageSource="assets/Ribbon/load.png"/>
+                    <RibbonButton Label="Import Image" LargeImageSource="assets/Ribbon/import.png" Click="ImportButton_Click"/>
+                    <RibbonButton Label="Export Image" LargeImageSource="assets/Ribbon/export.png" Click="ExportButton_Click"/>
+                </RibbonGroup>
+                <RibbonGroup Header="Utilities">
+                    <RibbonButton x:Name="UndoButton" Label="Undo" LargeImageSource="assets/Ribbon/undo.png" Click="UndoButton_Click"/>
+                    <RibbonButton x:Name="RedoButton" Label="Redo" LargeImageSource="assets/Ribbon/redo.png" Click="RedoButton_Click"/>
+                    <RibbonButton x:Name="ZoomButton" Label="Zoom" LargeImageSource="assets/Ribbon/zoom.png" Click="ZoomButton_Click"/>
+                </RibbonGroup>
+                <RibbonGroup Header="Draw">
+                    <RibbonButton Label="Line" SmallImageSource="assets/Ribbon/lines.png" Click="LineRibbonButton_Click"/>
+                    <RibbonButton Label="Ellipse" SmallImageSource="assets/Ribbon/ellipses.png" Click="EllipseRibbonButton_Click"/>
+                    <RibbonButton Label="Rectangle" SmallImageSource="assets/Ribbon/rentangles.png" Click="RectangleRibbonButton_Click"/>
+                    <RibbonButton Label="Reset" LargeImageSource="assets/Ribbon/reset.png"/>
+                </RibbonGroup>
+            </RibbonTab>
+            <!-- Add more tabs and groups as needed -->
+        </Ribbon>
+        <Canvas Background="White" Panel.ZIndex="1" x:Name="canvas" Grid.Row="1" MouseDown="Canvas_MouseDown" MouseUp="Canvas_MouseUp" MouseMove="Canvas_MouseMove" MouseWheel="canvas_MouseWheel">
+        </Canvas>
+        
+    </Grid>
+</Window>
